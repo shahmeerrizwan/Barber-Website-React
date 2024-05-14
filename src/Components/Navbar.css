@@ -100,3 +100,25 @@ nav .menu-btn i {
 input[type="checkbox"] {
   display: none;
 }
+.home {
+  text-decoration: underline;
+}
+.btn-main {
+  display: flex;
+  gap: 30px;
+}
+.show {
+  display: none;
+}
+.navbar-brand h1 {
+  color: white;
+}
+.navbar-brand {
+  padding-bottom: 0 !important;
+  padding-top: 10px;
+}
+@media (max-width: 1150px) {
+  nav {
+    padding: 0 40px 0 50px;
+  }
+}
