@@ -103,3 +103,24 @@ a:hover {
   height: 200px;
   border-radius: 50%;
 }
+
+/* For Price */
+#price {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#price h1 {
+  line-height: inherit !important;
+}
+#price .card {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 30px;
+  border: 1px solid transparent !important;
+}
+.card-body {
+  padding: 0 !important;
+  width: 100% !important;
+}
