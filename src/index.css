@@ -75,3 +75,31 @@ a:hover {
   width: 55%;
   margin-top: 50px;
 }
+
+/* For Services */
+#services {
+  text-align: center;
+  margin: 80px auto 0px auto;
+  width: 100%;
+  float: left;
+  color: white;
+  background-image: url(./Images/banner_bg_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services .card {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid transparent !important;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
