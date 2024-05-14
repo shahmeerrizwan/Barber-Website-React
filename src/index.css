@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* For Home Page */
+#slider {
+  background-image: url(./Images/banner_bg_1.png);
+  background-repeat: no-repeat;
+  min-height: 130vh;
+  background-size: cover;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#sliderimg {
+  width: 40%;
+  float: right;
+  height: 90vh;
+  background-image: url(./Images/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 85px;
+}
+
+#slidertext {
+  float: left;
+  width: 55%;
+  margin: 40vh auto 0px 10px;
+}
+
+.btn {
+  border: 1.5px solid #f94242;
+
+  background-color: white;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.btn a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #f94242;
+  text-decoration: none;
+  border: 1.5px solid white;
 }
