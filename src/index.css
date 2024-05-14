@@ -170,3 +170,33 @@ a:hover {
   background-color: #fb5353;
   color: aliceblue !important;
 }
+
+/* For Footer */
+.myfooter {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  float: left;
+}
+
+.myfooter .card {
+  display: inline-block;
+  text-align: center;
+  border: 0px none white !important;
+  background-color: black;
+  color: white;
+  width: 30%;
+  margin-left: 3%;
+}
+
+#rights {
+  text-align: center;
+  color: white;
+}
+
+.myfooter img {
+  border-radius: 50%;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+}
