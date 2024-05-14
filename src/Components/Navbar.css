@@ -122,3 +122,74 @@ input[type="checkbox"] {
     padding: 0 40px 0 50px;
   }
 }
+
+@media (max-width: 1150px) {
+  .hide {
+    display: none;
+  }
+  .show {
+    display: inline;
+  }
+
+  nav .menu-btn i {
+    top: 27px;
+    position: absolute;
+    right: 6%;
+    display: block;
+  }
+  .logoo {
+    position: relative;
+    right: 0;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+
+  nav {
+    padding: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+  nav ul {
+    position: absolute;
+    top: 69px;
+    left: -100%;
+    background: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 100;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 22px 0;
+  }
+  nav ul li {
+    margin-left: -100%;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li {
+    margin-left: 0px;
+  }
+  nav ul li.active,
+  nav ul li:hover {
+    background: none;
+    color: rgb(0, 0, 0);
+  }
+  nav .logo {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .logo {
+    display: inline-block;
+  }
+}
