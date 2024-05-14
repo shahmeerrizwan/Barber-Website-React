@@ -92,7 +92,7 @@ nav ul li:hover::before {
   width: 100%;
 }
 nav .menu-btn i {
-  color: #000;
+  color: #ffffff !important;
   font-size: 22px;
   cursor: pointer;
   display: none;
@@ -120,6 +120,14 @@ input[type="checkbox"] {
 @media (max-width: 1150px) {
   nav {
     padding: 0 40px 0 50px;
+  }
+  .navbar-brand {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  nav ul li a {
+    color: #ffffff;
+    font-weight: 600;
   }
 }
 
@@ -155,7 +163,7 @@ input[type="checkbox"] {
     position: absolute;
     top: 69px;
     left: -100%;
-    background: whitesmoke;
+    background: #f94242;
     height: 100vh;
     width: 100%;
     text-align: center;

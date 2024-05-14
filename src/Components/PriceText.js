@@ -1,5 +1,5 @@
 import React from 'react'
-import one from '../Images/price.png';
+import one from '../Images/about.png';
 
 
 export default function PriceText() {
