@@ -34,13 +34,13 @@ export default function Footer() {
                 <div className="card-body">
                     <h3 className="card-title">Contact Info</h3>
                     <p className="text">Address: Shahrah-e-faisal near FTC, Karachi</p>
-                    <p className="text">Phone: 090078601</p>
-                    <p className="text">Email: osamarizwan444@gmail.com</p>
+                    <p className="text">Phone: 03243217819</p>
+                    <p className="text">Email: Shahmeerrizwan921@gmail.com</p>
                 </div>
             </div>
 
             <div><br /><br />
-                <p id="rights">All rights reserved | This template is made by MOR.</p><br />
+                <p id="rights">All rights reserved | This template is made by Shahmeer Rizwan</p><br />
             </div>
 
         </div>

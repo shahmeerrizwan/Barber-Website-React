@@ -5,10 +5,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  padding-top: 80px;
+}
 nav {
   display: flex;
   height: 80px;
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: #000000;
   align-items: center;
@@ -32,6 +36,7 @@ nav {
   font-size: 18px;
   cursor: pointer;
 }
+
 .btn-signup {
   padding: 6px;
   width: 82px;
@@ -76,21 +81,22 @@ nav ul li a {
 nav ul li a:hover {
   color: white !important;
 }
-nav ul li::before {
+nav ul li .active::before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 0%;
+  width: 100%;
   height: 2px;
-  top: 33px;
+  top: 40px;
   background-color: #f94242;
   transition: width 0.5s ease;
 }
 
-nav ul li:hover::before {
-  width: 100%;
+nav ul li .active:hover::before {
+  width: 0%;
 }
+
 nav .menu-btn i {
   color: #ffffff !important;
   font-size: 22px;

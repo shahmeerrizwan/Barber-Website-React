@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -35,12 +35,12 @@ const Navbar = () => {
                     </div>
                 </label>
                 <ul>
-                    <li><Link to="/" onClick={handleMenuItemClick}>Home</Link></li>
-                    <li><Link to="/about" onClick={handleMenuItemClick}>About</Link></li>
-                    <li><Link to="/services" onClick={handleMenuItemClick}>Services</Link></li>
-                    <li><Link to="/pricing" onClick={handleMenuItemClick}>Pricing</Link></li>
-                    <li><Link to="/team" onClick={handleMenuItemClick}>Team</Link></li>
-                    <li><Link to="/contact" onClick={handleMenuItemClick}>Contact</Link></li>
+                    <li><NavLink activeclassname="active" to="/" onClick={handleMenuItemClick}>Home</NavLink></li>
+                    <li><NavLink to="/about" onClick={handleMenuItemClick}>About</NavLink></li>
+                    <li><NavLink to="/services" onClick={handleMenuItemClick}>Services</NavLink></li>
+                    <li><NavLink to="/pricing" onClick={handleMenuItemClick}>Pricing</NavLink></li>
+                    <li><NavLink to="/team" onClick={handleMenuItemClick}>Team</NavLink></li>
+                    <li><NavLink to="/contact" onClick={handleMenuItemClick}>Contact</NavLink></li>
                     <li onClick={handleMenuItemClick}>  <button className='btn btn-signup show'>SignUp</button></li>
                 </ul>
                 <div className='btn-main hide'>

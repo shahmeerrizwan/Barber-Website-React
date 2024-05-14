@@ -14,13 +14,12 @@
   background-image: url(./Images/banner_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 85px;
 }
 
 #slidertext {
   float: left;
   width: 55%;
-  margin: 40vh auto 0px 10px;
+  margin: 25vh auto 0px 10px;
   padding-left: 10px;
 }
 
@@ -34,13 +33,15 @@
 }
 
 .btn a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
   text-decoration: none;
 }
-
+.btn a:hover {
+  color: white;
+}
 .btn:hover {
   color: rgb(255, 255, 255) !important;
   background-color: #f94242;
@@ -61,6 +62,7 @@ a:hover {
 #aboutHeading {
   color: red;
   font-size: 40px;
+  font-weight: 800;
 }
 
 #aboutImg {
@@ -75,11 +77,15 @@ a:hover {
 #aboutText {
   width: 55%;
 }
-
+#aboutText p {
+  font-weight: 500;
+}
+#aboutText h1 {
+  font-weight: 700;
+}
 /* For Services */
 #services {
   text-align: center;
-  margin: 80px auto 0px auto;
   width: 100%;
   float: left;
   color: white;
@@ -97,7 +103,13 @@ a:hover {
   background-color: transparent;
   border: 1px solid transparent !important;
 }
-
+#services h1 {
+  font-weight: 700;
+}
+.card-title {
+  font-weight: 700;
+  padding-top: 10px;
+}
 .card img {
   width: 200px;
   height: 180px;
@@ -143,6 +155,7 @@ a:hover {
 
 #team h1 {
   margin-top: 100px;
+  font-weight: 800;
 }
 
 .teamtext img {
@@ -159,7 +172,7 @@ a:hover {
 
 /* For Contact */
 #contact {
-  padding-top: 110px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -168,7 +181,9 @@ a:hover {
   margin: auto;
   padding: 20px;
 }
-
+#contact h1 {
+  font-weight: 800;
+}
 #contact button {
   background-color: #fb5353;
   color: white;
