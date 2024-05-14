@@ -149,3 +149,24 @@ a:hover {
   text-align: center;
   width: 30%;
 }
+
+/* For Contact */
+#contact {
+  padding-top: 110px;
+  text-align: center;
+}
+
+.contactUs {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+#contact button {
+  background-color: #fb5353;
+  color: white;
+}
+#contact button:hover {
+  background-color: #fb5353;
+  color: aliceblue !important;
+}
