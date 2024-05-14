@@ -46,3 +46,32 @@ a:hover {
   text-decoration: none;
   border: 1.5px solid white;
 }
+
+/* For About */
+#about {
+  width: 100%;
+  padding-top: 120px;
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+}
+
+#aboutHeading {
+  color: red;
+}
+
+#aboutImg {
+  width: 430px;
+  height: 400px;
+  float: left;
+  background-image: url(./Images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#aboutText {
+  float: right;
+  width: 55%;
+  margin-top: 50px;
+}
