@@ -181,13 +181,13 @@ body.active-modal {
 }
 .modal-content h2 {
   text-align: center;
-  color: #002b64;
+  color: #000000;
   font-weight: 800;
   margin-top: 20px;
 }
 .modal-content p {
   text-align: center;
-  color: #002b64;
+  color: #f94242;
   font-weight: 500;
   font-size: 12px;
 }
@@ -212,7 +212,7 @@ body.active-modal {
   margin-top: 0 !important;
 }
 .p-l-1 {
-  color: #002b64 !important;
+  color: #f94242 !important;
   font-weight: 900 !important;
   font-size: 12px !important;
   bottom: 10px;
@@ -238,7 +238,7 @@ body.active-modal {
   border: none;
   position: absolute;
   transform: translate(0%, -50%);
-  background-color: #002b64;
+  background-color: #f94242;
   margin-top: 10px;
   width: 53px;
   height: 44px;
@@ -252,14 +252,21 @@ body.active-modal {
   left: 40%;
   top: 20px;
   position: relative;
-  border: none;
-  background-color: #002b64;
+  border: 2px solid #f94242;
+  background-color: #f94242;
   color: white;
   border-radius: 5px;
   font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
+}
+.btn-pr:hover {
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+  transition: 0.4s;
+  font-weight: 600;
 }
 @media (max-width: 1150px) {
   nav {
