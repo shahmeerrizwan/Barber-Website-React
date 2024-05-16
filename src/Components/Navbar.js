@@ -104,19 +104,18 @@ const Navbar = () => {
                 <div className='modal'>
                     <div className='overlay'></div>
                     <div className='modal-content'>
-                        <h2 className='h1-1'>KÜFFNER.</h2>
-                        <p className='p-l-1'>INSIGHTS</p>
-                        <h2>Business News & Updates</h2>
+                        <h2 className='h1-1'>Hair Styler</h2>
+                        <p className='p-l-1'>Book Now</p>
+                        <h2>Subscribed For News & Updates</h2>
                         <p>
-                            Trage dich jetzt kostenfrei ein und sei immer auf dem
-                            Laufenden!
+                            Subscription is FREE, Subscribed & Get 20% OFF on Your First Hair Cut.
                         </p>
                         <form onSubmit={handleFormSubmit}>
                             <input
                                 className='inp'
                                 type='email'
                                 required
-                                placeholder='Gebe hier deine E-Mail Adresse ein'
+                                placeholder='Enter Your Email Address'
                             />
 
                             <span>
@@ -128,7 +127,7 @@ const Navbar = () => {
                                         entnehmen</label>
                                 </p>
                             </span>
-                            <button className='btn-pr' type='submit'>Eintragen</button>
+                            <button className='btn-pr' type='submit'>Subscribe</button>
                         </form>
                         <button className='close-modal' onClick={toggleModal}>
                             &times;

@@ -143,6 +143,9 @@ body.active-modal {
 .swal2-container {
   z-index: 10000000000;
 }
+.modal {
+  margin: 20px !important;
+}
 .modal,
 .overlay {
   width: 100vw;
@@ -340,5 +343,26 @@ body.active-modal {
   }
   .logo {
     display: inline-block;
+  }
+}
+@media (max-width: 744px) {
+  .modal-content span p {
+    font-size: 7px;
+  }
+  .btn-pr {
+    top: 42px;
+    left: 32%;
+  }
+  .inp {
+    font-size: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .modal-content span p {
+    padding-left: 5px;
+  }
+  .modal {
+    margin: auto;
+    width: 90%;
   }
 }
