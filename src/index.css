@@ -106,6 +106,9 @@ a:hover {
 #services h1 {
   font-weight: 700;
 }
+#services p {
+  padding: 10px;
+}
 .card-title {
   font-weight: 700;
   padding-top: 10px;
